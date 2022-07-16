@@ -1,0 +1,174 @@
+
+body{
+  background-color: #7CDBD5;
+}
+
+.flex-container {
+      display: flex;
+      position: absolute;
+      top: 25%;
+      margin-left: auto;
+      margin-right: auto;
+      left:0;
+      right:0;
+      flex-direction: row;
+      flex-flow: wrap;
+      justify-content: space-around;
+  }
+  
+  .flex-child {
+      margin: 50px;
+      width: 200px;
+      height: 300px;
+      border-radius: 10px;
+      text-align: center;
+      border-style:solid;
+      border-color:black;
+      border-width:2px;
+      background-color:#02C8A7;
+      -webkit-transition: margin 0.5s ease-out;
+      -moz-transition: margin 0.5s ease-out;
+      -o-transition: margin 0.5s ease-out;
+
+      
+
+  }  
+  .lbl{
+    width: 105px;
+    height: 30px;
+    border-radius: 8px;
+    background-color: #F53240;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+    color: white;
+    font-family: 'Cabin', sans-serif;
+    padding-top: 7px;
+    margin-left: 45px;
+    margin-top: 25px;
+  }
+  .lbl2{
+    width: 105px;
+    height: 30px;
+    border-radius: 8px;
+    background-color: #109DFF;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+    color: white;
+    font-family: 'Cabin', sans-serif;
+    padding-top: 7px;
+    margin-left: 45px;
+    margin-top: 25px;
+
+  }
+  .lbl3{
+    width: 105px;
+    height: 30px;
+    border-radius: 8px;
+    background-color: #FF7A00;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+    color: white;
+    font-family: 'Cabin', sans-serif;
+    padding-top: 7px;
+    margin-left: 45px;
+    margin-top: 25px;
+  }
+  .lbl4{
+    width: 105px;
+    height: 30px;
+    border-radius: 8px;
+    background-color: #00A50A;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+    color: white;
+    font-family: 'Cabin', sans-serif;
+    padding-top: 7px;
+    margin-left: 45px;
+    margin-top: 25px;
+  }
+
+  .basketball{
+    margin-right: 25px;
+    margin-top: 70px;
+    width: 100px;
+  }
+  
+  .football{
+    margin-right: 3px;
+    margin-top: 70px;
+    width: 100px;
+
+  }
+
+  .soccer{
+    margin-right: 1px;
+    margin-top: 70px;
+    width: 100px;
+   
+  }
+
+  .baseball{
+    margin-right: 25px;
+    margin-top: 70px;
+    width: 100px;
+  }
+
+a:link { 
+  text-decoration: none; 
+}
+a:visited { 
+  text-decoration: none; 
+}
+a:hover { 
+  text-decoration: none; 
+}
+a:active { 
+  text-decoration: none; 
+}
+
+.flex-child:hover{
+ background-color: #BEFFF4;
+ color:#02C8A7;
+ cursor:pointer;
+ margin-top: 5px;
+}
+
+.logo {
+  position: absolute;
+  width: 90px;
+  
+}
+  
+.sprts{
+  width: 145px;
+  height: 40px;
+  border-radius: 8px;
+  background-color: #F53240;
+  text-align: center;
+  font-size: 23px;
+  font-weight: 300;
+  padding-top: 8px;
+  margin-top: 10px;
+  color: white;
+  font-family: 'Cabin', sans-serif;
+  border-width:1.5px;
+  border-style:solid;
+  border-color:black;
+  margin-left: 67px;
+ 
+
+}
+
+.wholelogo{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      margin-top: -320px;
+}
+  
+  

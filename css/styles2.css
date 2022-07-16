@@ -1,0 +1,231 @@
+/*Football*/
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-family: Gotham Rounded;
+  }
+  
+  :root {
+    --hue-neutral: 200;
+    --hue-wrong: 0;
+    --hue-correct: 145;
+  }
+  
+  body {
+    --hue: var(--hue-neutral);
+    padding: 0;
+    margin: 0;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #7CDBD5;
+  }
+  
+  body.correct {
+    --hue: var(--hue-correct);
+  }
+  
+  body.wrong {
+    --hue: var(--hue-wrong);
+  }
+  
+  .container {
+    width: 400px;
+    max-width: 80%;
+    background-color:#02C8A7;
+    border-radius: 10px;
+    padding: 10px;
+    height: 380px;
+    border-width:2px;
+    border-style:solid;
+    border-color:black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+  }
+  
+  .btn-grid {
+    display: grid;
+    gap: 10px;
+    margin: 20px 0;
+   align-items: center;
+  }
+  
+  .btn {
+    --hue: var(--hue-neutral);
+    border: 1px solid hsl(var(--hue), 100%, 30%);
+    
+    background-color: hsl(var(--hue), 100%, 50%);
+    border-radius: 5px;
+    padding:  15px;
+    color: white;
+    outline: none;
+    font-family: 'Cabin', sans-serif;
+    font-size: 15px;
+  }
+  
+  .btn:hover {
+    border-color: #BBFEFF  ;
+  }
+  
+  .btn.correct {
+    --hue: var(--hue-correct);
+    color: black;
+  }
+  
+  .btn.wrong {
+    --hue: var(--hue-wrong);
+  }
+  
+  .start-btn, .next-btn {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    background-color: #F53240;
+  }
+  
+  .controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hide {
+    display: none;
+  
+  }
+  
+  .question{
+    justify-content:center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  nav{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  ul{
+    display: flex;
+    list-style-type: none;
+    font-size: 30px;
+    font-family: 'Cabin', sans-serif;
+  }
+  li{
+    width: 200px;
+    text-decoration: none;
+    
+  
+  }
+  
+  a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Cabin', sans-serif;
+  }
+  
+  
+  /*changing atual image properties like size*/
+  .logo{
+    position: absolute;
+    width: 80px;
+  }
+  
+  
+  .sprts{
+    width: 145px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: #F53240;
+    text-align: center;
+    font-size: 23px;
+    font-weight: 300;
+    padding-top: 5px;
+    color: white;
+    font-family: 'Cabin', sans-serif;
+    margin-right: 486px;
+    border-width:1.5px;
+    border-style:solid;
+    border-color:black;
+    margin-top: 15px;
+    margin-left: 60px;
+   
+  
+  }
+  
+  .start-btn{
+    width: 200px;
+    height: 60px;
+    margin-top: 140px;
+    font-size: 35px;
+    padding-bottom: 55px;
+  }
+  .wholelogo{
+    position: absolute;
+    top: 2%;
+    left: 7%;
+  }
+  /* # THIS IS HOW TO SELECT AN ID PROPERTY */
+  #question{
+    font-family: 'Cabin', sans-serif;
+    color: white;
+  }
+  #nav-List a:hover {
+    background-color: #65CFC8;
+    color: whitesmoke;
+  }
+  
+  /*nav hover elements*/
+  #nav-List a{
+    padding: 14px 16px;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 8px;
+  }
+  
+
+  .lbl{
+    width: 105px;
+    height: 30px;
+    border-radius: 8px;
+    background-color: #109DFF;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+    color: white;
+    font-family: 'Cabin', sans-serif;
+    padding-top: 4px;
+    margin-bottom: 15px;
+    margin-left: 130px;
+    border-width:.7px;
+    border-style:solid;
+    border-color:black;
+    
+  }
+
+  @media(max-height: 500px){
+
+    nav{
+      display: none;
+    }
+  }
+
+  @media(max-height: 450px){
+
+    .wholelogo{
+      display: none;
+    }
+  }
+
+  @media (max-width: 1060px) {
+    nav {
+      display: none;
+    }
+  }
+  
